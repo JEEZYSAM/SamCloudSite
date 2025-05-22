@@ -1,0 +1,33 @@
+# Copy of Blowfish theme menus.en.toml for customization
+
+# Example menu structure. Uncomment and edit as needed.
+
+[[main]]
+name = "HOME"
+pageRef = "/"
+weight = 1
+
+[[main]]
+name = "GALLERY"
+pageRef = "gallery"
+weight = 2
+
+[[main]]
+name = "PRODUCTION"
+pageRef = "production"
+weight = 3
+
+[[main]]
+name = ".SamCloud"
+pageRef = "samcloud"
+weight = 4
+
+[[main]]
+name = "SERVICES"
+pageRef = "services"
+weight = 5
+
+[[main]]
+name = "ABOUT|CONTACT"
+pageRef = "about-contact"
+weight = 6

@@ -1,0 +1,10 @@
+# Copy of Blowfish theme markup.toml for customization
+
+[goldmark]
+  [goldmark.renderer]
+    unsafe = true
+[highlight]
+  noClasses = false
+[tableOfContents]
+  startLevel = 2
+  endLevel = 4

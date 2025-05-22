@@ -1,0 +1,13 @@
+# Copy of Blowfish theme languages.en.toml for customization
+
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Blowfish"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"

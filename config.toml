@@ -1,0 +1,4 @@
+baseURL = 'https://jeezy.samcloud.ca/'
+languageCode = 'en-us'
+title = 'SamCloud'
+theme = 'blowfish'

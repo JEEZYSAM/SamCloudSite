@@ -1,0 +1,41 @@
+# Copy of Blowfish theme params.toml for customization
+
+colorScheme = "blowfish"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+
+enableSearch = true
+enableCodeCopy = false
+replyByEmail = false
+disableImageOptimization = false
+disableTextInHeader = false
+giteaDefaultServer = "https://git.fsfe.org"
+forgejoDefaultServer = "https://v8.next.forgejo.org"
+
+[header]
+  layout = "basic"
+  centerTitle = true
+  showTitle = true
+  showMenu = true
+  menuAlignment = "center"
+  menuStyle = "large"
+  menuFont = "Montserrat, Arial, sans-serif"
+  titleFont = "Montserrat, Arial, sans-serif"
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+
+[homepage]
+  layout = "page"
+  homepageImage = "background1.jpg"
+  showRecent = false
+
+[list]
+  cardView = true
+  cardViewScreenWidth = true
+  mainSections = ["gallery"]
+
+customCSS = ["css/custom.css?v=2"]
