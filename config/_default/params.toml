@@ -15,7 +15,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
 [header]
   layout = "basic"
   centerTitle = true
-  showTitle = true
+  showTitle = false  # Hide Blowfish/SamCloud title in header
   showMenu = true
   menuAlignment = "center"
   menuStyle = "large"
@@ -29,9 +29,13 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   showAppearanceSwitcher = true
 
 [homepage]
-  layout = "page"
-  homepageImage = "background1.jpg"
+  layout = "background"
+  homepageImage = "background1.webp"
   showRecent = false
+
+# Use WebP for hero background for best performance
+[params]
+  defaultBackgroundImage = "background1.webp"
 
 [list]
   cardView = true

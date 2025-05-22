@@ -1,0 +1,3 @@
+[build]
+  command = "./optimize-gallery.sh && hugo --minify"
+  publish = "public"

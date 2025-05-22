@@ -1,0 +1,17 @@
+stages:
+  - optimize
+  - build
+
+optimize:
+  stage: optimize
+  script:
+    - chmod +x optimize-gallery.sh
+    - ./optimize-gallery.sh
+
+build:
+  stage: build
+  script:
+    - hugo --minify
+  artifacts:
+    paths:
+      - public

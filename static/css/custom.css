@@ -1,5 +1,5 @@
 html, body, .bg-neutral, .dark\:bg-neutral-800, .max-w-7xl, .h-screen, .min-h-screen, .flex, .grow {
-  background: url('/background1.jpg') no-repeat center center fixed !important;
+  background: url('/background1.webp') no-repeat center center fixed !important;
   background-size: cover !important;
   background-color: #222 !important;
 }
@@ -43,4 +43,22 @@ body, .main-menu, .site-title, h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin-bottom: 1.5rem;
   color: #444;
+}
+
+/* Hero title adjustments for lower position and larger font, single line only */
+.page-title, .single-title, h1.title, h1.page-title, h1.entry-title, h1 {
+  font-size: 5rem !important;
+  margin-top: 8rem !important;
+  margin-bottom: 2.5rem !important;
+  line-height: 1.05 !important;
+  white-space: nowrap !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Prevent wrapping for hero titles */
+.hero h1, .hero .page-title, .hero .single-title {
+  white-space: nowrap !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
