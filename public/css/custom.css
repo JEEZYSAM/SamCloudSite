@@ -4,6 +4,13 @@ html, body, .bg-neutral, .dark\:bg-neutral-800, .max-w-7xl, .h-screen, .min-h-sc
   background-color: #222 !important;
 }
 
+/* Import Poppins font globally */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+body, .main-menu, .site-title, h1, h2, h3, h4, h5, h6, a, nav {
+  font-family: 'Poppins', Arial, sans-serif !important;
+}
+
 /* Custom styles for Canva-like look */
 body, .main-menu, .site-title, h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', Arial, sans-serif !important;

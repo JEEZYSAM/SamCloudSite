@@ -3,18 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:56358/samcloud/</loc>
+    <loc>http://localhost:61454/</loc>
   </url>
   <url>
-    <loc>http://localhost:56358/about-contact/</loc>
+    <loc>http://localhost:61454/samcloud/</loc>
   </url>
   <url>
-    <loc>http://localhost:56358/gallery/</loc>
+    <loc>http://localhost:61454/about-contact/</loc>
   </url>
   <url>
-    <loc>http://localhost:56358/</loc>
+    <loc>http://localhost:61454/gallery/</loc>
   </url>
   <url>
-    <loc>http://localhost:56358/production/</loc>
+    <loc>http://localhost:61454/production/</loc>
   </url>
 </urlset>
