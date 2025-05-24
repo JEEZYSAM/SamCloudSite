@@ -1,0 +1,11 @@
+# macOS system files
+.DS_Store
+*/.DS_Store
+
+# Hugo build output
+public/
+resources/_gen/
+hugo_stats.json
+
+# Logs and system files
+*.log
